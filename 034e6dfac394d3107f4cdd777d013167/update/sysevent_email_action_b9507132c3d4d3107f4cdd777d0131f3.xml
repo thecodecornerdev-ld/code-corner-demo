@@ -42,10 +42,10 @@
 <p>Thanks! We have received your demo request.</p>
 <p><strong>Request:</strong> ${short_description}<br><strong>Status:</strong> ${status}</p>
 <p>${description}</p>
-<p>Regards,<br>The Code Corner team</p>]]></message_html>
+<p>Thank You &amp; Best Regards,<br>The Code Corner team</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name/>
+        <name>Demo request created</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -64,15 +64,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b9507132c3d4d3107f4cdd777d0131f3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Demo request created</sys_name>
         <sys_overrides/>
         <sys_package display_value="Code Corner Demo" source="x_2299722_code_c_0">034e6dfac394d3107f4cdd777d013167</sys_package>
         <sys_policy/>
         <sys_scope display_value="Code Corner Demo">034e6dfac394d3107f4cdd777d013167</sys_scope>
         <sys_update_name>sysevent_email_action_b9507132c3d4d3107f4cdd777d0131f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-11-05 17:28:58</sys_updated_on>
+        <sys_updated_on>2026-11-05 18:11:27</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
