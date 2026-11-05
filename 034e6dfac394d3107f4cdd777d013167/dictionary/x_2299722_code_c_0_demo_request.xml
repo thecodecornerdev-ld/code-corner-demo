@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="cdae293ec394d3107f4cdd777d0131a7" label="Demo Request" max_length="40" name="x_2299722_code_c_0_demo_request" type="collection">
+        <element choice="1" default="new" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="300" value="completed"/>
+                <element inactive_on_update="false" label="New" sequence="100" value="new"/>
+                <element inactive_on_update="false" label="In Progress" sequence="200" value="in_progress"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Short description" max_length="160" name="short_description" type="string"/>
+        <index name="index">
+            <element name="requested_for"/>
+        </index>
+    </element>
+</database>
